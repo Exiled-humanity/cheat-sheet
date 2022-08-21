@@ -1,0 +1,390 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <title> HTML Cheat Sheet
+  </title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet"> 
+</head>
+  <body>
+    <h1> HTML Cheat Sheet </h1>
+    <nav id="jumphead"> 
+      <h2> Quick Jump Links</h2>
+      <ul> 
+        <li> <a href ="#bstruc"> Basic Structure</a> </li>
+        <li> <a href ="#semstruc" > Semantic Structure </a>  </li>
+        <li> <a href ="#format" > Formatting </a> </li> 
+        <li> <a href ="#lists" > Lists </a> </li>
+        <li> <a href ="#tables" > Tables </a> </li> 
+        <li> <a href ="#media" > Media </a> </li> 
+      </ul>
+    </nav>
+    <main>
+      <h2 id="bstruc"> Basic Structure 
+              </h2>
+  <table> 
+      <thead>
+           <tr class="th2"> 
+              <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+          </tr> 
+        </thead> 
+           <tr>
+        <td> &lt;!DOCTYPE HTML&gt; </td>
+        <td> Doctype HTML </td>
+        <td> Sets page to html</td>
+      </tr>     
+      <tr>
+        <td> &lt;html&gt; </td>
+        <td> html </td>
+        <td> Needed to code html elements </td>
+      </tr>     
+      <tr>
+        <td> &lt;head&gt; </td>
+        <td> head </td>
+        <td> A section to encode meta-data </td>
+      </tr>    
+       <tr>
+        <td> &lt;body&gt; </td>
+        <td> body </td>
+        <td> Section for the main body of the page </td>
+      </tr>
+            <tr>
+        <td> &lt;h1&gt; </td>
+        <td> heading </td>
+        <td> main heading for the page </td>
+        </tr>
+        <tr>
+        <td> &lt;h2 - h6&gt; </td>
+        <td> Smaller headings </td>
+        <td>sub-headings for the page </td>
+      </tr>
+       <tr>
+        <td> &lt;p&gt; </td>
+        <td> Paragraph </td>
+        <td>A tag for inputting paragraphs</td>
+      </tr>
+       <tr>
+        <td> &lt;div&gt; </td>
+        <td> Div </td>
+        <td>A tag for id/styling between elements</td>
+      </tr>
+       <tr>
+        <td> &lt;span&gt; </td>
+        <td> Span </td>
+        <td>A tag for id/styling within elements</td>
+      </tr>
+       <tr>
+        <td> &lt;br&gt; </td>
+        <td> Break </td>
+        <td> inserts a line break</td>
+      </tr>
+      </table>    
+             <h2 id="semstruc"> Semantic Structure 
+              </h2> 
+      <table>
+        <thead>
+           <tr class="th2"> 
+           <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+        </tr>
+        </thead>
+           <tr>
+        <td> &lt;nav&gt; </td>
+        <td> Navigation </td>
+        <td> Container for navigational links</td>
+      </tr>     
+      <tr>
+        <td> &lt;main&gt; </td>
+        <td> Main </td>
+        <td> Container for main section of the page </td>
+      </tr>     
+      <tr>
+        <td> &lt;article&gt; </td>
+        <td> Article </td>
+        <td> Container to signal article content </td>
+      </tr>    
+       <tr>
+        <td> &lt;aside&gt; </td>
+        <td> Aside </td>
+        <td> Container for additional information </td>
+      </tr>
+            <tr>
+        <td> &lt;footer&gt; </td>
+        <td> Footer </td>
+        <td> Container for footer </td>
+      </tr>
+      </table>
+      <h2 id="format"> Formatting Tags </h2>
+  <table> 
+      <thead>
+           <tr class="th2"> 
+              <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+          </tr> 
+        </thead> 
+           <tr>
+        <td> &lt;blockquote&gt; </td>
+        <td> blockquote </td>
+        <td> To add a blockquot to the page</td>
+      </tr>     
+      <tr>
+        <td> &lt;q&gt; </td>
+        <td> Quotation Marks </td>
+        <td> To control quote marks in a blockquote</td>
+      </tr>     
+      <tr>
+        <td> &lt;blockquote cite&gt; </td>
+        <td>  Citiation</td>
+        <td> Attribution to add citation source/url</td>
+      </tr>    
+       <tr>
+        <td> &lt;strong&gt; </td>
+        <td> Strong </td>
+        <td> Creates an important (bold) statement </td>
+      </tr>
+            <tr>
+        <td> &lt;em&gt; </td>
+        <td>  Emphasis</td>
+        <td> Creates a stressed (italics) statemen </td>
+        </tr>
+       <tr>
+        <td> &lt;small&gt; </td>
+        <td> Small </td>
+        <td> Creates a smaller font</td>
+      </tr>
+       <tr>
+        <td> &lt;s&gt; </td>
+        <td> Strike-out </td>
+        <td> Create strike-out text </td>
+      </tr>
+       <tr>
+        <td> &lt;u&gt; </td>
+        <td> underline </td>
+        <td> Creates an underlined text</td>
+      </tr>
+       <tr>
+        <td> &lt;pre&gt; </td>
+        <td> Preformatted </td>
+        <td> Creates performatted text</td>
+      </tr>
+      <tr>
+      <td> &lt;sup&gt; </td>
+        <td> Superscript </td>
+        <td> To insert superscript text </td>   
+     </tr>
+     <tr>
+      <td> &lt;sub&gt; </td>
+      <td> Subscript </td>
+      <td> To create subscript </td>
+      </tr>
+      <tr>
+      <td> &lt;a&gt; </td>
+      <td> Anchor text </td>
+      <td> URL links, Fragment Links or tooltips</td>
+      </tr>
+      </table> <h2 id="lists"> List Tags 
+              </h2>
+  <table> 
+      <thead>
+           <tr class="th2"> 
+              <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+          </tr> 
+        </thead> 
+           <tr>
+        <td> &lt;ul&gt; </td>
+        <td> Unordered list </td>
+        <td> To create a bulleted list</td>
+      </tr>     
+      <tr>
+        <td> &lt;ol&gt; </td>
+        <td> Ordered List </td>
+        <td> To create an ordered list </td>
+      </tr>     
+      <tr>
+        <td> &lt;="list-style-type:"&gt; </td>
+        <td> List style type </td>
+        <td> Used to code a specific bullet/list type </td>
+      </tr>    
+       <tr>
+        <td> &lt;circle&gt; </td>
+        <td> Circle </td>
+        <td> Used with list-style-type= to create circle bullets on ULs </td>
+      </tr>
+            <tr>
+        <td> &lt;square&gt; </td>
+        <td> Square </td>
+        <td> Used with list-style-type to create square bulllets in UL </td>
+        </tr>
+        <tr>
+        <td> &lt;URL(addy.file)&gt; </td>
+        <td> Used to create custom image bullets </td>
+        <td>sub-headings for the page </td>
+      </tr>
+       <tr>
+        <td> &lt;upper-roman&gt; </td>
+        <td> Uppercase Roman Numerals </td>
+        <td> Changes numbers to upcase roman numerals in ordered lists</td>
+      </tr>
+       <tr>
+        <td> &lt;start&gt; </td>
+        <td> Starting point </td>
+        <td> Creates a starting point for the list eg 100</td>
+      </tr>
+       <tr>
+        <td> &lt;dl&gt; </td>
+        <td> Description list </td>
+        <td> Used for list with descriptions eg question answers/definitions</td>
+      </tr>
+       <tr>
+        <td> &lt;dt&gt; </td>
+        <td> Definition term</td>
+        <td> The question/definition in a DL</td>
+      </tr>
+      <tr>
+        <td> &lt;dd&gt; </td>
+        <td> Details tag</td>
+        <td> Answer or definition in a DL</td>
+      </tr>
+      <tr>
+        <td> &lt;dfn&gt; </td>
+        <td> Definition tag</td>
+        <td> To signal a definition in a DL</td>
+      </tr>
+      </table> <h2 id="tables"> Table Tags 
+              </h2>
+  <table> 
+      <thead>
+           <tr class="th2"> 
+              <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+          </tr> 
+        </thead> 
+           <tr>
+        <td> &lt;table&gt; </td>
+        <td> Table </td>
+        <td> Creaes a table </td>
+      </tr>     
+      <tr>
+        <td> &lt;tr&gt; </td>
+        <td> Table Row </td>
+        <td> Creates a table row </td>
+      </tr>     
+      <tr>
+        <td> &lt;td&gt; </td>
+        <td> Table Data </td>
+        <td> Creates a data cell</td>
+      </tr>    
+       <tr>
+        <td> &lt;caption&gt; </td>
+        <td> Caption</td>
+        <td> Creates a table caption </td>
+      </tr>
+            <tr>
+        <td> &lt;rowspan="2"&gt; </td>
+        <td> Row Span </td>
+        <td> Creates td that spans multiple rows</td>
+        </tr>
+        <tr>
+        <td> &lt;colspan="2"&gt; </td>
+        <td> Column span </td>
+        <td> Creates a td that spans multiple columns</td>
+      </tr>
+       <tr>
+        <td> &lt;thead&gt; </td>
+        <td> Table Header </td>
+        <td> Tag for a table header </td>
+      </tr>
+       <tr>
+        <td> &lt;tbody&gt; </td>
+        <td> Table Body </td>
+        <td> Tag for a table body</td>
+      </tr>
+       <tr>
+        <td> &lt;tfooter&gt; </td>
+        <td> Table Footer </td>
+        <td> Tag for a table footer</td>
+      </tr>
+       <tr>
+        <td> &lt;br&gt; </td>
+        <td> Break </td>
+        <td> inserts a line break</td>
+      </tr>
+      </table> 
+      <h2 id="media"> Media Tags 
+              </h2>
+  <table> 
+      <thead>
+           <tr class="th2"> 
+              <td> Tag </td>
+        <td> Name </td>
+        <td> Purpose </td>
+          </tr> 
+        </thead> 
+           <tr>
+        <td> &lt;img src="url"&gt; </td>
+        <td> Image </td>
+        <td> Inserts an image</td>
+      </tr>     
+      <tr>
+        <td> &lt;map&gt; </td>
+        <td> Image map </td>
+        <td> Creates an image map </td>
+      </tr>     
+      <tr>
+        <td> &lt;coords&gt; </td>
+        <td> Coordinates: </td>
+        <td> Define coordinates on a map </td>
+      </tr>    
+       <tr>
+        <td> &lt;alt&gt; </td>
+        <td> Alt text </td>
+        <td> Creates alt text on image </td>
+      </tr>
+            <tr>
+        <td> &lt;figure&gt; </td>
+        <td> Figure </td>
+        <td> Figure text to embed images/add ids</td>
+        </tr>
+        <tr>
+        <td> &lt;figcaption&gt; </td>
+        <td> Figure Caption </td>
+        <td> Add a cpation to images </td>
+      </tr>
+       <tr>
+        <td> &lt;iframe src=""&gt; </td>
+        <td> iframe </td>
+        <td> Fixed area on page for an embedded media</td>
+      </tr>
+       <tr>
+        <td> &lt;audio src=""&gt; </td>
+        <td> Audio file </td>
+        <td> Embed an audio file</td>
+      </tr>
+       <tr>
+        <td> &lt;video src=""&gt; </td>
+        <td> Video </td>
+        <td> Embed a video </td>
+      </tr>
+       <tr>
+        <td> &lt;controls&gt; </td>
+        <td> Controls </td>
+        <td> Control attribute for media functions</td>
+      </tr>
+      </table> 
+
+    </main> 
+  
+  </body>
+</html>
